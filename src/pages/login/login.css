@@ -1,0 +1,72 @@
+.login-holder {
+    background-color: #ffd046;
+    align-items: center;
+}
+.login-holder h1 {
+    font-weight: bold;
+    font-size: 50px;
+}
+.login-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This ensures that the container takes up the full height of the viewport */
+  }
+  
+  .login-holder form {
+    width: 300px; /* Adjust this width as needed */
+    display: flex;
+    flex-direction: column;
+
+}
+  
+  .login-holder input {
+    margin-bottom: 10px; /* Adjust the spacing between inputs and button */
+    height: 30px;
+    font-size: 17px;
+  }
+  
+  .form-container button {
+    width: 150px; /* Adjust the width of the button as needed */
+    padding: 12px 20px; /* Adjust padding as needed */
+    background-color: #4CAF50; /* Green background color */
+    color: white;
+    border: none;
+    border-radius: 6px; /* Rounded corners */
+    cursor: pointer;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    position: relative;
+    font-size: larger;
+    align-items: center;
+  }
+  
+  .login-holder button:hover {
+    background-color: #45a049; /* Darker green */
+  }
+  
+  .login-holder button:after {
+    content: "";
+    background: #90EE90; /* Lighter green */
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .login-holder button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+  
+  .login-header {
+    text-align: center;
+  }

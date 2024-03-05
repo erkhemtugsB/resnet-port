@@ -1,0 +1,66 @@
+body {
+  background-color: antiquewhite;
+}
+.nav {
+  position: sticky;
+}
+.room-lists button {
+  /* Define your default button styles here */
+  background-color: #ff0000;
+  /* Default background color */
+  color: white;
+  /* Default text color */
+  border-color: #ff0000;
+  /* Default border */
+  padding: 10px 20px;
+  /* Padding */
+  margin: 5px;
+  /* Margin */
+  cursor: pointer;
+  /* Cursor */
+  font-weight: bold;
+  ;
+}
+
+.room-lists button.clicked {
+  background-color: #53fc1f;
+
+  /* Change background color when clicked */
+  color: black;
+  /* Change text color when clicked */
+  border-color: #53fc1f;
+
+  /* Change border color when clicked */
+}
+
+.room-lists {
+  text-align: center;
+  width: 275px;
+  height: 530px;
+  overflow: auto;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+.left-room, .right-room {
+  height: 100%;
+}
+
+.main-with-title h1 {
+  background-color: antiquewhite;;
+}
+
+
+.main-with-title {
+  background-color: antiquewhite;
+  overflow: auto;
+  justify-content: space-evenly;
+}
+.main-with-title h2 {
+  text-align: center;
+}
+.building-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

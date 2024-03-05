@@ -1,0 +1,40 @@
+.nav {
+    background-color: #ffd046;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+}
+
+.nav a {
+    margin-top: 23px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    border-radius: 3px;
+    cursor: pointer;
+
+    text-decoration: none;
+    font-weight: bolder;
+}
+.nav a:hover {
+    color: white;
+    text-decoration: none;
+}
+.nav-wrapper a {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+}
+.nav-wrapper {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #ffd046;
+}
+.nav h1 {
+    margin-left: 20px
+}
